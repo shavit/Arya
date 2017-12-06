@@ -1,0 +1,13 @@
+{
+  "name": "Arya",
+  "version": "1.0.0",
+  "description": "Electron application",
+  "main": "resources/main.js",
+  "scripts": {
+    "start": "electron .",
+    "release": "electron-packager . Arya --platform=darwin --arch=x64 --version=1.4.8"
+  },
+  "devDependencies": {
+    "electron": "~1.7.8"
+  }
+}
